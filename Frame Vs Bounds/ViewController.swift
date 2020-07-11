@@ -1,16 +1,12 @@
-# Frame-Vs-Bounds
- 
-## Frame Vs Bounds on Screen
+//
+//  ViewController.swift
+//  Frame Vs Bounds
+//
+//  Created by Pawan kumar on 07/06/20.
+//  Copyright © 2020 Pawan Kumar. All rights reserved.
+//
 
-Added Some screens here.
-
-![](https://github.com/pawankv89/Frame-Vs-Bounds/blob/master/images/screen_1.png)
-
-## Usage
-
-#### Controller
-
-```swift
+import UIKit
 
 class ViewController: UIViewController {
     
@@ -32,18 +28,13 @@ class ViewController: UIViewController {
     }
 }
 
-```
 
-## Requirements
-
-### Build
-
-Xcode Version 11.3 (11C29), iOS 13.2.0 SDK
-
-## License
-
-This code is distributed under the terms and conditions of the [MIT license](LICENSE).
-
-## Change-log
-
-A brief summary of each this release can be found in the [CHANGELOG](CHANGELOG.mdown). 
+/*
+ 
+ Short description
+ 
+ frame = a view’s location and size using the parent view’s coordinate system (important for placing the view in the parent)
+ 
+ bounds = a view’s location and size using the its own coordiate system  (important for placing the view's content or subviews within itself)
+ 
+ */
